@@ -27,6 +27,7 @@ pub fn execute_example() {
     println!("{number:>0width$}", number=1, width=6);
 
     // 위치지정 인자 사용시 정확한 수의 인자들이 왔는데 검증받게 될 것이다.
+    //println!("My name is {0}, {1} {0}", "Bond");
     println!("My name is {0}, {1} {0}", "Bond", "James");
     // FIXME ^ 다음의 인자를 추가해서 버그를 수정해보세요 : "James"
 
@@ -38,6 +39,11 @@ pub fn execute_example() {
     // 다음 문장은 실행되지 않을 것이다.
     //println!("This struct `{}` won't print...", Structure(3));
     // FIXME ^ 이 줄을 주석처리 해주세요.
+
+    // Activities
+    // let pi = 3.141592로 pi를 선언하고 Pi is roughly 3.142를 출력하는 println! 문을 추가해보세요.
+    let pi = 3.141592;
+    println!("Pi is roughly {:.3}",pi);
 }
 
 //pub mod debug;

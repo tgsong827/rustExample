@@ -1,5 +1,5 @@
 pub fn execute_example() {
-    println!("Hello, world!");
+    println!("Hello, World!");
 }
 
 pub mod formatted_print;
