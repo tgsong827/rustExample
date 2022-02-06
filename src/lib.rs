@@ -1,5 +1,3 @@
-pub mod hello_world;
-
 #[cfg(test)]
 mod tests {
     #[test]
@@ -7,3 +5,9 @@ mod tests {
         assert_eq!(2 + 2, 4);
     }
 }
+
+pub fn print_current_module_path(module_path: &str) {
+    println!("\n####  Module Path - {}  ####\n", module_path);
+}
+
+pub mod hello_world;

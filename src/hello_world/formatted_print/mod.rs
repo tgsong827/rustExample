@@ -1,4 +1,8 @@
+use super::print_current_module_path;
+
 pub fn execute_example() {
+    print_current_module_path(module_path!());
+
     // 일반적으로 `{}`는 인자에 따라 자동으로 변환된다.
     // 다음은 String으로 변환될 것이다.
     println!("{} days", 31);
