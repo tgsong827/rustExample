@@ -1,5 +1,9 @@
 use super::print_current_module_path;
 
+// format! : 텍스트를 형식에 맞춰 String으로 작성[ String ]
+// print! : format!과 같으며 콘솔로 출력.
+// println! : print!과 같으며 새 줄 추가.
+
 pub fn execute_example() {
     print_current_module_path(module_path!());
 
@@ -47,8 +51,9 @@ pub fn execute_example() {
     // Activities
     // let pi = 3.141592로 pi를 선언하고 Pi is roughly 3.142를 출력하는 println! 문을 추가해보세요.
     let pi = 3.141592;
-    println!("Pi is roughly {:.3}",pi);
+    println!("Pi is roughly {:>width$.3}",pi,width=10);
 }
 
-//pub mod debug;
-//pub mod display;
+pub mod debug;
+pub mod display;
+pub mod formatting;
