@@ -12,5 +12,6 @@ fn main() {
     // rustExample::hello_world::formatted_print::execute_example();
     // rustExample::hello_world::formatted_print::debug::execute_example();
     // rustExample::hello_world::formatted_print::display::execute_example();
-    rustExample::hello_world::formatted_print::display::testcase_list::execute_example();
+    // rustExample::hello_world::formatted_print::display::testcase_list::execute_example();
+    rustExample::hello_world::formatted_print::formatting::execute_example();
 }
