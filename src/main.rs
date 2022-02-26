@@ -14,5 +14,7 @@ fn main() {
     // rustExample::hello_world::formatted_print::display::execute_example();
     // rustExample::hello_world::formatted_print::display::testcase_list::execute_example();
     // rustExample::hello_world::formatted_print::formatting::execute_example();
-    rustExample::primitives::execute_example();
+    // rustExample::primitives::execute_example();
+    // rustExample::primitives::literal_and_operators::execute_example();
+    rustExample::primitives::tuples::execute_example();
 }
