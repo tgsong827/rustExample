@@ -19,6 +19,18 @@ pub fn execute_example() {
         p2: point,
     };
 
+    // 단위 구조체 초기화
+    let _nil = Nil;
+
+    // 튜플 구조체 초기화
+    let pair = Pair(1, 0.1);
+
+    println!("pair contains {} and {}", pair.0, pair.1);
+
+    // 튜플 구조체 재구조화
+    let Pair(integer, devimal ) = pair;
+    println!("pair contains {} and {}", integer, devimal);
+
     // Activity
     println!("직사각형 면적 = {}",rect_area(_rectangle));
 
