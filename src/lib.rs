@@ -12,3 +12,4 @@ pub fn print_current_module_path(module_path: &str) {
 
 pub mod hello_world;
 pub mod primitives;
+pub mod custom_types;
