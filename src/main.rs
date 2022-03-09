@@ -20,5 +20,6 @@ fn main() {
     // rustExample::primitives::arrays_and_slices::execute_example();
     // rustExample::custom_types::structures::execute_example();
     // rustExample::custom_types::enums::execute_example();
-    rustExample::custom_types::enums::use_::execute_example();
+    // rustExample::custom_types::enums::use_::execute_example();
+    rustExample::custom_types::enums::c_like::execute_example();
 }
