@@ -25,5 +25,6 @@ fn main() {
     // rustExample::custom_types::enums::testcase_linked_list::execute_example();
     // rustExample::custom_types::constants::execute_example();
     // rustExample::variable_bindings::execute_example();
-    rustExample::variable_bindings::mutability::execute_example();
+    // rustExample::variable_bindings::mutability::execute_example();
+    rustExample::variable_bindings::scope_and_shadowing::execute_example();
 }
