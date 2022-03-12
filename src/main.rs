@@ -31,5 +31,6 @@ fn main() {
     // rustExample::casting::execute_example();
     // rustExample::casting::literals::execute_example();
     // rustExample::casting::inference::execute_example();
-    rustExample::casting::alias::execute_example();
+    // rustExample::casting::alias::execute_example();
+    rustExample::expressions::execute_example();
 }
