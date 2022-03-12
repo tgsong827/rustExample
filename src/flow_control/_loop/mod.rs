@@ -1,6 +1,7 @@
 use super::print_current_module_path;
 
 pub mod nesting_and_labels;
+pub mod returning_from_loops;
 
 pub fn execute_example() {
     print_current_module_path(module_path!());
