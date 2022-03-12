@@ -35,5 +35,8 @@ fn main() {
     // rustExample::expressions::execute_example();
     // rustExample::conversion::from_and_into::execute_example();
     // rustExample::conversion::tryfrom_and_tryinto::execute_example();
-    rustExample::conversion::to_and_from_strings::execute_example();
+    // rustExample::conversion::to_and_from_strings::execute_example();
+    // rustExample::flow_control::if_else::execute_example();
+    // rustExample::flow_control::_loop::execute_example();
+    rustExample::flow_control::_loop::nesting_and_labels::execute_example();
 }
