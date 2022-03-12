@@ -26,5 +26,10 @@ fn main() {
     // rustExample::custom_types::constants::execute_example();
     // rustExample::variable_bindings::execute_example();
     // rustExample::variable_bindings::mutability::execute_example();
-    rustExample::variable_bindings::scope_and_shadowing::execute_example();
+    // rustExample::variable_bindings::scope_and_shadowing::execute_example();
+    // rustExample::variable_bindings::declare_first::execute_example();
+    // rustExample::casting::execute_example();
+    // rustExample::casting::literals::execute_example();
+    // rustExample::casting::inference::execute_example();
+    rustExample::casting::alias::execute_example();
 }
