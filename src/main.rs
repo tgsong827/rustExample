@@ -34,5 +34,6 @@ fn main() {
     // rustExample::casting::alias::execute_example();
     // rustExample::expressions::execute_example();
     // rustExample::conversion::from_and_into::execute_example();
-    rustExample::conversion::tryfrom_and_tryinto::execute_example();
+    // rustExample::conversion::tryfrom_and_tryinto::execute_example();
+    rustExample::conversion::to_and_from_strings::execute_example();
 }
