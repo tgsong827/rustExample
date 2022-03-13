@@ -4,3 +4,4 @@ pub mod enums;
 pub mod pointers_ref;
 pub mod structs;
 pub mod tuples;
+pub mod arrays_slices;
