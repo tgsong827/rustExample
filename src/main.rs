@@ -44,6 +44,7 @@ fn main() {
     // rustExample::flow_control::for_and_range::execute_example();
     // rustExample::flow_control::_match::execute_example();
     // rustExample::flow_control::_match::destructuring::tuples::execute_example();
-    rustExample::flow_control::_match::destructuring::arrays_slices::execute_example();
+    // rustExample::flow_control::_match::destructuring::arrays_slices::execute_example();
+    rustExample::flow_control::_match::destructuring::enums::execute_example();
     
 }
