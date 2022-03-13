@@ -40,5 +40,7 @@ fn main() {
     // rustExample::flow_control::_loop::execute_example();
     // rustExample::flow_control::_loop::nesting_and_labels::execute_example();
     // rustExample::flow_control::_loop::returning_from_loops::execute_example();
-    rustExample::flow_control::_while::execute_example();
+    // rustExample::flow_control::_while::execute_example();
+    rustExample::flow_control::for_and_range::execute_example();
+    
 }
