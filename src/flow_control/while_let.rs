@@ -21,6 +21,8 @@ pub fn execute_example() {
         }
     }
 
+    optional = Some(0);
+
     // Using `while let` makes this sequence much nicer.
     while let Some(i) = optional {
         if i > 9 {

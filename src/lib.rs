@@ -18,3 +18,4 @@ pub mod casting;
 pub mod expressions;
 pub mod conversion;
 pub mod flow_control;
+pub mod functions;
