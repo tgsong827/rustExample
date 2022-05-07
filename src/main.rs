@@ -7,7 +7,7 @@ fn main() {
     println!("[ ------------ Start Main of rustExample ------------ ]");
     println!("[ --------------------------------------------------- ]");
 
-    // hello_world
+    // 01. hello_world
     // rustExample::hello_world::execute_example();
     // rustExample::hello_world::comments::execute_example();
     // rustExample::hello_world::formatted_print::execute_example();
@@ -16,13 +16,13 @@ fn main() {
     // rustExample::hello_world::formatted_print::display::testcase_list::execute_example();
     // rustExample::hello_world::formatted_print::formatting::execute_example();
     
-    // primitives
+    // 02. primitives
     // rustExample::primitives::execute_example();
     // rustExample::primitives::literal_and_operators::execute_example();
     // rustExample::primitives::tuples::execute_example();
     // rustExample::primitives::arrays_and_slices::execute_example();
     
-    // custom_types
+    // 03. custom_types
     // rustExample::custom_types::structures::execute_example();
     // rustExample::custom_types::enums::execute_example();
     // rustExample::custom_types::enums::use_::execute_example();
@@ -30,27 +30,27 @@ fn main() {
     // rustExample::custom_types::enums::testcase_linked_list::execute_example();
     // rustExample::custom_types::constants::execute_example();
     
-    // variable_bindings
+    // 04. variable_bindings
     // rustExample::variable_bindings::execute_example();
     // rustExample::variable_bindings::mutability::execute_example();
     // rustExample::variable_bindings::scope_and_shadowing::execute_example();
     // rustExample::variable_bindings::declare_first::execute_example();
     
-    // casting
+    // 05. casting
     // rustExample::casting::execute_example();
     // rustExample::casting::literals::execute_example();
     // rustExample::casting::inference::execute_example();
     // rustExample::casting::alias::execute_example();
     
-    // expressions
+    // 06. expressions
     // rustExample::expressions::execute_example();
     
-    // coversion
+    // 07. coversion
     // rustExample::conversion::from_and_into::execute_example();
     // rustExample::conversion::tryfrom_and_tryinto::execute_example();
     // rustExample::conversion::to_and_from_strings::execute_example();
     
-    // flow_control
+    // 08. flow_control
     // rustExample::flow_control::if_else::execute_example();
     // rustExample::flow_control::_loop::execute_example();
     // rustExample::flow_control::_loop::nesting_and_labels::execute_example();
@@ -68,8 +68,9 @@ fn main() {
     // rustExample::flow_control::if_let::execute_example();
     // rustExample::flow_control::while_let::execute_example();
 
-    // functions
+    // 09. functions
     // rustExample::functions::execute_example();
-    rustExample::functions::methods::execute_example();
+    // rustExample::functions::methods::execute_example();
+    rustExample::functions::closures::execute_example();
 
 }
