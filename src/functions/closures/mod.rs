@@ -1,5 +1,7 @@
 use super::print_current_module_path;
 
+pub mod capturing;
+
 pub fn execute_example() {
     print_current_module_path(module_path!());
 

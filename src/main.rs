@@ -71,6 +71,7 @@ fn main() {
     // 09. functions
     // rustExample::functions::execute_example();
     // rustExample::functions::methods::execute_example();
-    rustExample::functions::closures::execute_example();
+    // rustExample::functions::closures::execute_example();
+    rustExample::functions::closures::capturing::execute_example();
 
 }
