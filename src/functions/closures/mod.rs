@@ -5,6 +5,7 @@ pub mod as_input_parameters;
 pub mod type_anonymity;
 pub mod input_functions;
 pub mod as_output_parameters;
+pub mod examples_in_std;
 
 pub fn execute_example() {
     print_current_module_path(module_path!());
