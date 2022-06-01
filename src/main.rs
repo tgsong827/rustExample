@@ -72,6 +72,7 @@ fn main() {
     // rustExample::functions::execute_example();
     // rustExample::functions::methods::execute_example();
     // rustExample::functions::closures::execute_example();
-    rustExample::functions::closures::capturing::execute_example();
-
+    // rustExample::functions::closures::capturing::execute_example();
+    rustExample::functions::closures::as_input_parameters::execute_example();
+    
 }
