@@ -2,6 +2,7 @@ use super::print_current_module_path;
 
 pub mod capturing;
 pub mod as_input_parameters;
+pub mod type_anonymity;
 
 pub fn execute_example() {
     print_current_module_path(module_path!());
