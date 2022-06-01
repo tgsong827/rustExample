@@ -74,6 +74,7 @@ fn main() {
     // rustExample::functions::closures::execute_example();
     // rustExample::functions::closures::capturing::execute_example();
     // rustExample::functions::closures::as_input_parameters::execute_example();
-    rustExample::functions::closures::type_anonymity::execute_example();
+    // rustExample::functions::closures::type_anonymity::execute_example();
+    rustExample::functions::closures::input_functions::execute_example();
 
 }
