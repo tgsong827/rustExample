@@ -79,6 +79,7 @@ fn main() {
     // rustExample::functions::closures::as_output_parameters::execute_example();
     // rustExample::functions::closures::examples_in_std::iterator_any::execute_example();
     // rustExample::functions::closures::examples_in_std::searching_through_iterators::execute_example();
-    rustExample::functions::higher_order_functions::execute_example();
+    // rustExample::functions::higher_order_functions::execute_example();
+    rustExample::functions::diverging_functions::execute_example();
 
 }
