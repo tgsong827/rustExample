@@ -83,6 +83,7 @@ fn main() {
     //rustExample::functions::diverging_functions::execute_example();
 
     // 10. modules
-    rustExample::modules::visibility::execute_example();
+    // rustExample::modules::visibility::execute_example();
+    rustExample::modules::struct_visibility::execute_example();
 
 }
