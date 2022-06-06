@@ -84,6 +84,7 @@ fn main() {
 
     // 10. modules
     // rustExample::modules::visibility::execute_example();
-    rustExample::modules::struct_visibility::execute_example();
+    // rustExample::modules::struct_visibility::execute_example();
+    rustExample::modules::the_use_declaration::execute_example();
 
 }
