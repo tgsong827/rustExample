@@ -36,7 +36,6 @@ mod my {
         self::cool::function();
 
         super::function();
-
         {
             use crate::modules::super_and_self::cool::function as root_function;
             root_function();
