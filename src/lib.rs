@@ -20,3 +20,4 @@ pub mod conversion;
 pub mod flow_control;
 pub mod functions;
 pub mod modules;
+pub mod crates;

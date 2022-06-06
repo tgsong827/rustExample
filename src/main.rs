@@ -87,6 +87,9 @@ fn main() {
     // rustExample::modules::struct_visibility::execute_example();
     // rustExample::modules::the_use_declaration::execute_example();
     // rustExample::modules::super_and_self::execute_example();
-    rustExample::modules::file_hierarchy::execute_example();
+    // rustExample::modules::file_hierarchy::execute_example();
+
+    // 11. crates
+    // 생략
 
 }
