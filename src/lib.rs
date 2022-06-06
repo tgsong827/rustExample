@@ -19,3 +19,4 @@ pub mod expressions;
 pub mod conversion;
 pub mod flow_control;
 pub mod functions;
+pub mod modules;
