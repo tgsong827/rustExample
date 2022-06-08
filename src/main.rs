@@ -98,6 +98,7 @@ fn main() {
     // 13. attributes
     // rustExample::attributes::dead_code::execute_example();
     // rustExample::attributes::crates::execute_example();
-    rustExample::attributes::cfg::execute_example();
+    // rustExample::attributes::cfg::execute_example();
+    rustExample::attributes::cfg::custom::execute_example();
 
 }

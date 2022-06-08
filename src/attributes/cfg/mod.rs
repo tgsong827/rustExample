@@ -22,3 +22,5 @@ fn are_you_on_linux() {
 fn are_you_on_linux() {
     println!("You are *not* running linux!");
 }
+
+pub mod custom;
