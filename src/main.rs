@@ -103,5 +103,5 @@ fn main() {
 
     // 14. generics
     // rustExample::generics::execute_example();
-    rustExample::generics::functions::execute_example();
+    rustExample::generics::functions::execute_example(); 
 }
