@@ -99,6 +99,9 @@ fn main() {
     // rustExample::attributes::dead_code::execute_example();
     // rustExample::attributes::crates::execute_example();
     // rustExample::attributes::cfg::execute_example();
-    rustExample::attributes::cfg::custom::execute_example();
+    // rustExample::attributes::cfg::custom::execute_example();
+
+    // 14. generics
+    rustExample::generics::execute_example();
 
 }
