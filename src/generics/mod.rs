@@ -13,7 +13,6 @@ pub mod phantom_type_parameters;
 pub fn execute_example() {
     print_current_module_path(module_path!());
 
-
 }
 
 // A concrete Type `A`.

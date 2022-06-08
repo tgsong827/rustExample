@@ -102,6 +102,6 @@ fn main() {
     // rustExample::attributes::cfg::custom::execute_example();
 
     // 14. generics
-    rustExample::generics::execute_example();
-
+    // rustExample::generics::execute_example();
+    rustExample::generics::functions::execute_example();
 }
