@@ -96,7 +96,8 @@ fn main() {
     // 생략
 
     // 13. attributes
-    rustExample::attributes::dead_code::execute_example();
-    rustExample::attributes::crates::execute_example();
+    // rustExample::attributes::dead_code::execute_example();
+    // rustExample::attributes::crates::execute_example();
+    rustExample::attributes::cfg::execute_example();
 
 }
