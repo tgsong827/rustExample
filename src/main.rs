@@ -92,4 +92,10 @@ fn main() {
     // 11. crates
     // 생략
 
+    // 12. cargo
+    // 생략
+
+    // 13. attributes
+    rustExample::attributes::dead_code::execute_example();
+
 }
