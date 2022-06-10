@@ -108,5 +108,6 @@ fn main() {
     // rustExample::generics::traits::execute_example();
     // rustExample::generics::bounds::execute_example();
     // rustExample::generics::bounds::testcase_empty_bounds::execute_example();
-    rustExample::generics::where_clauses::execute_example();
+    rustExample::generics::multiple_bounds::execute_example();
+    // rustExample::generics::where_clauses::execute_example();
 }
