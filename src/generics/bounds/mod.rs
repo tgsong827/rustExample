@@ -1,3 +1,5 @@
+pub mod testcase_empty_bounds;
+
 use super::print_current_module_path;
 use std::fmt::Display;
 use std::fmt::Debug;

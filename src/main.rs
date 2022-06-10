@@ -105,5 +105,7 @@ fn main() {
     // rustExample::generics::execute_example();
     // rustExample::generics::functions::execute_example(); 
     // rustExample::generics::implementation::execute_example();
-    rustExample::generics::traits::execute_example();
+    // rustExample::generics::traits::execute_example();
+    // rustExample::generics::bounds::execute_example();
+    rustExample::generics::bounds::testcase_empty_bounds::execute_example();
 }
