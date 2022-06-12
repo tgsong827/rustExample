@@ -8,6 +8,11 @@ pub fn execute_example() {
     println!("Old enough {}", old_enough(&age));
     println!("Old enough {}", old_enough(&age_days.to_years()));
     // println!("Old enough {}", old_enough(&age_days));
+
+    //// new type
+    let years = Years(42);
+    let years_as_primitive_1: i64 = years.0;
+    let Years(years_as_primitive_2) = years;
 }
 
 struct Years(i64);
