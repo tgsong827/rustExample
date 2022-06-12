@@ -111,5 +111,6 @@ fn main() {
     // rustExample::generics::multiple_bounds::execute_example();
     // rustExample::generics::where_clauses::execute_example();
     // rustExample::generics::new_type_idiom::execute_example();
-    rustExample::generics::associated_items::the_problem::execute_example();
+    // rustExample::generics::associated_items::the_problem::execute_example();
+    rustExample::generics::associated_items::associated_types::execute_example();
 }
