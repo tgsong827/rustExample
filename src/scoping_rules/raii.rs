@@ -15,6 +15,9 @@ pub fn execute_example() {
         create_box();
     }
 
+    let x = ToDrop;
+    println!("Made a ToDrop!");
+
     // `_box2`는 여기서 해제
 }
 
@@ -22,4 +25,12 @@ fn create_box() {
     let _box1 = Box::new(3i32);
 
     // `_box1`은 여기서 파괴되고, 메모리는 해제된다.
+}
+
+struct ToDrop;
+
+impl Drop for ToDrop {
+    fn drop(&mut self) {
+        println!("ToDrop is being dropped");
+    }
 }
