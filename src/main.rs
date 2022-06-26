@@ -113,5 +113,6 @@ fn main() {
     // rustExample::generics::new_type_idiom::execute_example();
     // rustExample::generics::associated_items::the_problem::execute_example();
     // rustExample::generics::associated_items::associated_types::execute_example();
-    rustExample::generics::phantom_type_parameters::execute_example();
+    // rustExample::generics::phantom_type_parameters::execute_example();
+    rustExample::generics::phantom_type_parameters::testcase_unit_clarification::execute_example();
 }

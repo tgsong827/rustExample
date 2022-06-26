@@ -1,7 +1,7 @@
 use super::print_current_module_path;
 use std::marker::PhantomData;
 
-mod testcase_unit_clarification;
+pub mod testcase_unit_clarification;
 
 pub fn execute_example() {
 
