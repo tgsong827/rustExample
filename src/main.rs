@@ -117,5 +117,5 @@ fn main() {
     // rustExample::generics::phantom_type_parameters::testcase_unit_clarification::execute_example();
 
     // 15. Scoping rules
-    rustExample::scoping_rules::execute_example();
+    rustExample::scoping_rules::raii::execute_example();
 }
