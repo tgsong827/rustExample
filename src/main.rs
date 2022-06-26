@@ -114,5 +114,8 @@ fn main() {
     // rustExample::generics::associated_items::the_problem::execute_example();
     // rustExample::generics::associated_items::associated_types::execute_example();
     // rustExample::generics::phantom_type_parameters::execute_example();
-    rustExample::generics::phantom_type_parameters::testcase_unit_clarification::execute_example();
+    // rustExample::generics::phantom_type_parameters::testcase_unit_clarification::execute_example();
+
+    // 15. Scoping rules
+    rustExample::scoping_rules::execute_example();
 }
